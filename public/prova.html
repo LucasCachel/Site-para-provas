@@ -2,11 +2,74 @@
 <html>
 <head>
   <title>Prova - Site da Prova</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="prova-styles.css"> <!-- Verifique se esta linha está presente -->
 </head>
 <body>
-  <h1>Prova Online</h1>
-  <p>Esta é a página da prova. Insira as perguntas e as opções de resposta aqui.</p>
+  <!-- Verifique se a classe 'container' está presente no elemento abaixo -->
+  <div class="container">
+
+    <!-- Verifique se o cabeçalho está sendo exibido corretamente -->
+    <header>
+      <h1>Prova</h1>
+      <div class="prova-info">
+        <p>Nome do Aluno: John Doe</p>
+        <p>Data: 25 de Julho de 2023</p>
+        <p>Curso: Matemática Avançada</p>
+        <p>Instrutor: Prof. Smith</p>
+      </div>
+      <div class="instrucoes">
+        <h2>Instruções:</h2>
+        <ul>
+          <!-- Verifique se as instruções estão sendo exibidas corretamente -->
+          <li>Leia atentamente cada questão e marque a resposta correta.</li>
+          <li>Cada questão tem apenas uma opção correta.</li>
+          <li>A prova contém 20 questões de múltipla escolha.</li>
+          <li>A nota mínima para aprovação é 80 pontos.</li>
+          <li>Cada questão certa vale 5 pontos.</li>
+          <li>As questões em branco terão 10 pontos descontados.</li>
+          <li>Para a realização da prova, pode ser utilizada as anotações realizadas pelo aluno durante as atividades do curso.</li>
+          <li>Não será permitida a utilização do Celular.</li>
+          <li>Caso queira descartar alguma questão da 1 a 20, pode ser substituída pela 21, escreva "troca" na questão a ser substituída.</li>
+        </ul>
+        <p>Boa sorte a todos!!!</p>
+      </div>
+    </header>
+
+    <!-- Adicione as questões e opções de respostas abaixo -->
+    <div class="questao">
+      <h3>Questão 1:</h3>
+      <p>Qual é a capital da França?</p>
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="questao1" value="a"> a) Paris
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao1" value="b"> b) Londres
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao1" value="c"> c) Roma
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao1" value="d"> d) Berlim
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Adicione as outras questões abaixo -->
+
+  </div>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
