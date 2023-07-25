@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - Site da Prova</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Login</h1>
+  <form id="loginForm">
+    <label for="username">Usuário:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Entrar</button>
+  </form>
+  <div id="mensagemErro" style="display: none; color: red;">Usuário ou senha inválidos. Tente novamente.</div>
+  
+  <script src="script.js" defer></script> <!-- Importe o arquivo script.js no final do corpo -->
+</body>
+</html>
