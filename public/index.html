@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Site da Prova</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site de Provas</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <h1>Bem-vindo ao Site da Prova</h1>
-  <p>Esta é a página inicial do site da prova.</p>
-  <a href="cadastro.html">Cadastre-se</a>
+<body class="with-background">
+  <h1 id="mensagemInicio">Bem vindo ao site da prova</h1>
+  <div class="container">
+    <p id="mensagemDescricao">Esta é a página inicial do site da prova</p>
+    <button id="cadastreButton" type="button">Cadastre-se</button>
+    <p id="mensagemLogin">Já possui cadastro? <a href="login.html">Clique para fazer login</a></p>
+  </div>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
