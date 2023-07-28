@@ -1,15 +1,141 @@
+/* Estilos gerais para o corpo do documento */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
 }
 
-h1 {
-  color: #333;
+/* Estilos para a mensagem "Bem vindo ao site da prova" na página index.html */
+#mensagemInicio {
+  color: #f3ecec; /* Alterado para preto (#000) */
+  font-size: 30px;
+  text-align: center;
+  padding: 100px 0 30px;
+  position: absolute;
+  top: 25%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
+/* Estilos para a mensagem "Esta é a página inicial do site da prova" na página index.html */
+#mensagemDescricao {
+  color: #f3eeee; /* Alterado para preto (#000) */
+  font-size: 32px;
+  text-align: center;
+}
+
+/* Estilos adicionais para o botão de cadastre-se */
+#cadastreButton {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Estilos da mensagem de cadastro */
+#mensagemCadastro {
+  /* Estilos da mensagem de cadastro */
+  display: none;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Estilos para páginas com imagem de fundo */
+body.with-background {
+  background-image: url('./gloria.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para a página de prova */
+body.prova {
+  background-color: #ffffff;
+  color: hsl(0, 0%, 0%);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para o cabeçalho na página de prova */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 36px;
+}
+
+.prova-info {
+  margin-bottom: 20px;
+}
+
+.prova-info p {
+  margin: 5px;
+}
+
+.instrucoes {
+  text-align: left;
+}
+
+.instrucoes h2 {
+  font-size: 24px;
+}
+
+.instrucoes ul {
+  padding-left: 20px;
+}
+
+.instrucoes ul li {
+  margin-bottom: 5px;
+}
+
+.questao {
+  margin-bottom: 20px;
+}
+
+.questao h3 {
+  font-size: 24px;
+}
+
+.questao p {
+  margin: 10px 0;
+}
+
+.questao ul {
+  padding-left: 20px;
+}
+
+.questao ul li {
+  margin-bottom: 5px;
+}
+
+.questao input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Estilos para o formulário de cadastro e login */
 form {
   max-width: 300px;
   margin: 20px auto;
@@ -17,23 +143,25 @@ form {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-label {
-  display: block;
+form label {
   margin-bottom: 5px;
   color: #555;
 }
 
-input {
-  width: 100%;
-  padding: 8px;
+form input {
+  padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
-button {
+form button {
   background-color: #4CAF50;
   color: #fff;
   padding: 10px 15px;
@@ -42,21 +170,39 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #45a049;
+/* Estilos para as barras de usuário e senha na página de cadastro e login */
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
 }
-/* styles.css */
-/* ... estilos existentes ... */
 
-#mensagemCadastro {
-    display: none;
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 10px;
-  }
-  
-  /* ... estilos existentes ... */
-  
+/* Adicionar o tom escuro sobre a imagem de fundo */
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Tom escuro semi-transparente */
+  border-radius: 5px;
+  z-index: -1; /* Colocar o elemento atrás do conteúdo */
+}
+/* Estilos gerais para o corpo do documento */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+/* Estilos adicionais para a mensagem "Já possui cadastro?" */
+#mensagemLogin {
+  color: #ffffff; /* Alterado para branco (#fff) */
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
