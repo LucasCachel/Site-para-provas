@@ -10,7 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
       loginForm.addEventListener("submit", realizarLogin);
     }
   });
-  
+  document.getElementById("cadastreButton").addEventListener("click", function() {
+    window.location.href = "cadastro.html";
+  });
   function cadastrarUsuario(event) {
     event.preventDefault();
     const newUsername = document.querySelector("#newUsername").value;
