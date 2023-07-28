@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
-const PORT = process.env.PORT || 3000; const IP = '143.255.160.102';
+const PORT = process.env.PORT || 3000; const IP = ' 192.168.134.39';
 
 app.use(express.static("public"));
 
