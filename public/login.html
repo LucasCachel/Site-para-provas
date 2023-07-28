@@ -4,13 +4,30 @@
   <title>Login - Site da Prova</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <style>
+    /* Estilos para a tela de fundo na página de login */
+    body {
+      background-image: url('gloria.jpg'); /* Substitua 'nome-da-imagem.png' pelo nome do seu arquivo de imagem */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
 <body>
   <h1>Login</h1>
   <form id="loginForm">
     <label for="username">Usuário:</label>
     <input type="text" id="username" name="username" required>
-
     <label for="password">Senha:</label>
     <input type="password" id="password" name="password" required>
 
