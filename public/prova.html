@@ -5,13 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="prova-styles.css"> <!-- Verifique se esta linha está presente -->
+  <link rel="stylesheet" type="text/css" href="prova-styles.css">
 </head>
-<body>
-  <!-- Verifique se a classe 'container' está presente no elemento abaixo -->
+<body class="prova">
   <div class="container">
+    <img src="transferir.png">
 
-    <!-- Verifique se o cabeçalho está sendo exibido corretamente -->
     <header>
       <h1>Prova</h1>
       <div class="prova-info">
@@ -38,38 +37,666 @@
       </div>
     </header>
 
-    <!-- Adicione as questões e opções de respostas abaixo -->
-    <div class="questao">
+    <!-- Questão 1 -->
+    <div class="questao" id="pagina1">
       <h3>Questão 1:</h3>
-      <p>Qual é a capital da França?</p>
+      <p>Qual é o combustível mais comum utilizado nos motores de ônibus urbanos?</p>
       <ul>
         <li>
           <label>
-            <input type="radio" name="questao1" value="a"> a) Paris
+            <input type="radio" name="questao1" value="a"> a) Gasolina
           </label>
         </li>
         <li>
           <label>
-            <input type="radio" name="questao1" value="b"> b) Londres
+            <input type="radio" name="questao1" value="b"> b) Etanol
           </label>
         </li>
         <li>
           <label>
-            <input type="radio" name="questao1" value="c"> c) Roma
+            <input type="radio" name="questao1" value="c"> c) Diesel
           </label>
         </li>
         <li>
           <label>
-            <input type="radio" name="questao1" value="d"> d) Berlim
+            <input type="radio" name="questao1" value="d"> d) Gás natural
           </label>
         </li>
       </ul>
     </div>
 
-    <!-- Adicione as outras questões abaixo -->
+    <!-- Questão 2 -->
+    <div class="questao" id="pagina2" style="display: none;">
+      <h3>Questão 2:</h3>
+      <p>O que é o sistema de injeção direta em um motor diesel de ônibus urbano?</p>
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="questao2" value="a"> a) Um sistema que injeta combustível diretamente no coletor de admissão.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao2" value="b"> b) Um sistema que injeta combustível diretamente nos cilindros do motor.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao2" value="c"> c) Um sistema que injeta ar diretamente no motor.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao2" value="d"> d) Um sistema que injeta combustível diretamente no tanque de combustível.
+          </label>
+        </li>
+      </ul>
+    </div>
 
+    <!-- Questão 3 -->
+    <div class="questao" id="pagina3" style="display: none;">
+      <h3>Questão 3:</h3>
+      <p>Qual é a função do turbo em um motor diesel de ônibus urbano?</p>
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="questao3" value="a"> a) Resfriar o motor.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao3" value="b"> b) Aumentar a pressão do combustível.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao3" value="c"> c) Aumentar a potência do motor através do aumento da quantidade de combustível.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao3" value="d"> d) Aumentar a quantidade de ar admitido para o motor.
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Questão 4 -->
+    <div class="questao" id="pagina4" style="display: none;">
+      <h3>Questão 4:</h3>
+      <p>O que é o sistema de pós-tratamento dos gases de escape em um ônibus diesel urbano?</p>
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="questao4" value="a"> a) Um sistema para resfriar o ar de admissão.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao4" value="b"> b) Um sistema para reduzir as emissões nocivas dos gases de escape.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao4" value="c"> c) Um sistema para aumentar a quantidade de combustível injetado.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao4" value="d"> d) Um sistema para melhorar a eficiência do motor.
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Questão 5 -->
+    <div class="questao" id="pagina5" style="display: none;">
+      <h3>Questão 5:</h3>
+      <p>Quando ocorre a combustão em um motor diesel?</p>
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="questao5" value="a"> a) Quando o ar é comprimido no cilindro do motor.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao5" value="b"> b) Quando o combustível é injetado nos cilindros do motor.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao5" value="c"> c) Quando o motor está desligado.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao5" value="d"> d) Quando o motor está superaquecido.
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Questão 6 -->
+    <div class="questao" id="pagina6" style="display: none;">
+      <h3>Questão 6:</h3>
+      <p>Qual é a função do radiador no sistema de arrefecimento do motor diesel de um ônibus urbano?</p>
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="questao6" value="a"> a) Reduzir a quantidade de combustível injetado no motor.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao6" value="b"> b) Resfriar o ar admitido no motor.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao6" value="c"> c) Resfriar o motor, dissipando o calor gerado pela combustão.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao6" value="d"> d) Aumentar a temperatura do motor.
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Questão 7 -->
+    <div class="questao" id="pagina7" style="display: none;">
+      <h3>Questão 7:</h3>
+      <p>O que é a regeneração do filtro de partículas em um ônibus diesel urbano?</p>
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="questao7" value="a"> a) Um processo para remover partículas de poeira do ar admitido.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao7" value="b"> b) Um processo para limpar o interior do ônibus.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao7" value="c"> c) Um processo para reduzir as vibrações do motor.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao7" value="d"> d) Um processo para queimar as partículas retidas no filtro.
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Questão 8 -->
+    <div class="questao" id="pagina8" style="display: none;">
+      <h3>Questão 8:</h3>
+      <p>Quais são as válvulas responsáveis pela admissão e escape de gases no motor diesel?</p>
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="questao8" value="a"> a) Válvula de admissão e válvula de escape.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao8" value="b"> b) Válvula de combustível e válvula de admissão.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao8" value="c"> c) Válvula de injeção e válvula de escape.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao8" value="d"> d) Válvula de admissão e válvula de combustível.
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Questão 9 -->
+    <div class="questao" id="pagina9" style="display: none;">
+      <h3>Questão 9:</h3>
+      <p>Como é chamado o sistema responsável por transmitir a força do motor para as rodas do ônibus?</p>
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="questao9" value="a"> a) Câmbio
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao9" value="b"> b) Embreagem
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao9" value="c"> c) Diferencial
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao9" value="d"> d) Radiador
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Questão 10 -->
+    <div class="questao" id="pagina10" style="display: none;">
+      <h3>Questão 10:</h3>
+      <p>Qual é a função do alternador em um ônibus diesel urbano?</p>
+      <ul>
+        <li>
+          <label>
+            <input type="radio" name="questao10" value="a"> a) Gerar a faísca de ignição.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao10" value="b"> b) Carregar a bateria do veículo e fornecer energia para os componentes elétricos.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao10" value="c"> c) Controlar a velocidade do motor.
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="questao10" value="d"> d) Transferir a potência do motor para as rodas.
+          </label>
+        </li>
+      </ul>
+    </div>
+    <!-- Questão 11 -->
+<div class="questao" id="pagina11" style="display: none;">
+  <h3>Questão 11:</h3>
+  <p>Quais são os principais componentes do sistema de freio de ar em um ônibus diesel urbano?</p>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" name="questao11" value="a"> a) Pastilhas de freio e discos de freio.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao11" value="b"> b) Pedal de freio e cilindro mestre.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao11" value="c"> c) Ar comprimido, válvulas e câmaras de freio.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao11" value="d"> d) Fluido de freio e cilindro de roda.
+      </label>
+    </li>
+  </ul>
+</div>
+
+<!-- Questão 12 -->
+<div class="questao" id="pagina12" style="display: none;">
+  <h3>Questão 12:</h3>
+  <p>O que é o freio motor em um ônibus diesel urbano?</p>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" name="questao12" value="a"> a) Um dispositivo para parar completamente o veículo.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao12" value="b"> b) Um dispositivo que utiliza o ar de arrefecimento para auxiliar na frenagem e reduzir o desgaste dos freios tradicionais.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao12" value="c"> c) Um dispositivo para controlar a velocidade do veículo em descidas.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao12" value="d"> d) Um dispositivo para aumentar a potência do motor.
+      </label>
+    </li>
+  </ul>
+</div>
+
+<!-- Questão 13 -->
+<div class="questao" id="pagina13" style="display: none;">
+  <h3>Questão 13:</h3>
+  <p>Quais são os principais sinais de que o motor diesel pode estar com problemas?</p>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" name="questao13" value="a"> a) Ruídos estranhos, falta de combustível e pneus murchos.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao13" value="b"> b) Fumaça preta saindo pelo escape, dificuldade de partida e perda de potência.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao13" value="c"> c) Pintura descascando, vidros sujos e luzes queimadas.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao13" value="d"> d) Ruídos no sistema de suspensão, vazamento de óleo e ar-condicionado ineficiente.
+      </label>
+    </li>
+  </ul>
+</div>
+
+<!-- Questão 14 -->
+<div class="questao" id="pagina14" style="display: none;">
+  <h3>Questão 14:</h3>
+  <p>O que é a folga de válvulas em um motor diesel de ônibus urbano?</p>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" name="questao14" value="a"> a) A quantidade de óleo presente nas válvulas do motor.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao14" value="b"> b) A quantidade de combustível que vaza pelas válvulas.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao14" value="c"> c) O espaço entre os componentes da válvula quando ela está fechada.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao14" value="d"> d) O espaço entre o pedal do acelerador e o assoalho do ônibus.
+      </label>
+    </li>
+  </ul>
+</div>
+
+<!-- Questão 15 -->
+<div class="questao" id="pagina15" style="display: none;">
+  <h3>Questão 15:</h3>
+  <p>Qual é a principal função do filtro de ar em um motor diesel de ônibus urbano?</p>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" name="questao15" value="a"> a) Filtrar o combustível antes de ser injetado no motor.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao15" value="b"> b) Filtrar o ar admitido para o motor, removendo partículas de poeira e impurezas.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao15" value="c"> c) Resfriar o ar admitido para o motor.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao15" value="d"> d) Aumentar a quantidade de oxigénio no ar admitido.
+      </label>
+    </li>
+  </ul>
+</div>
+
+<!-- Questão 16 -->
+<div class="questao" id="pagina16" style="display: none;">
+  <h3>Questão 16:</h3>
+  <p>O que é o sistema de suspensão em um ônibus urbano?</p>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" name="questao16" value="a"> a) Um sistema para controlar a emissão de gases poluentes.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao16" value="b"> b) Um sistema para reduzir a vibração do motor.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao16" value="c"> c) Um sistema para garantir que as rodas permaneçam no chão e proporcionar conforto aos passageiros.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao16" value="d"> d) Um sistema para garantir que as rodas permaneçam próximas ao chão e proporcionar conforto aos passageiros.
+      </label>
+    </li>
+  </ul>
+</div>
+
+<!-- Questão 17 -->
+<div class="questao" id="pagina17" style="display: none;">
+  <h3>Questão 17:</h3>
+  <p>Quais são os principais tipos de lubrificantes utilizados em um motor diesel de ônibus urbano?</p>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" name="questao17" value="a"> a) Água, graxa e óleo.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao17" value="b"> b) Óleo lubrificante e aditivos específicos para motor.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao17" value="c"> c) Óleo reificante e aditivos específicos para motor.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao17" value="d"> d) Fluido de freio e fluido de arrefecimento para motores diesel.
+      </label>
+    </li>
+  </ul>
+</div>
+
+<!-- Questão 18 -->
+<div class="questao" id="pagina18" style="display: none;">
+  <h3>Questão 18:</h3>
+  <p>O que é a EGR (Exhaust Gas Recirculation) em um motor diesel de ônibus urbano?</p>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" name="questao18" value="a"> a) Um sistema para resfriar o ar de admissão.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao18" value="b"> b) Um sistema para aumentar a potência do motor.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao18" value="c"> c) Um sistema para recircular parte dos gases de escape de volta para o motor.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao18" value="d"> d) Um sistema para reduzir a quantidade de combustível injetado no motor.
+      </label>
+    </li>
+  </ul>
+</div>
+
+<!-- Questão 19 -->
+<div class="questao" id="pagina19" style="display: none;">
+  <h3>Questão 19:</h3>
+  <p>Um motor diesel opera seguindo um ciclo termodinâmico que consiste em quatro tempos distintos. Quais são os tempos de funcionamento desse ciclo, em ordem sequencial?</p>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" name="questao19" value="a"> a) Admissão, Compressão, Ignição (Explosão), Escape.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao19" value="b"> b) Admissão, Ignição (Explosão), Compressão, Escape.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao19" value="c"> c) Admissão, Escape, Compressão, Ignição (Explosão).
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao19" value="d"> d) Compressão, Ignição (Explosão), Admissão, Escape.
+      </label>
+    </li>
+  </ul>
+</div>
+
+<!-- Questão 20 -->
+<div class="questao" id="pagina20" style="display: none;">
+  <h3>Questão 20:</h3>
+  <p>O que é o sistema de suspensão a ar em um ônibus urbano?</p>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" name="questao20" value="a"> a) Um sistema para controlar a emissão de gases poluentes.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao20" value="b"> b) Um sistema para reduzir a vibração do motor.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao20" value="c"> c) Um sistema que utiliza bolsas de ar comprimido para suportar o peso do veículo e proporcionar conforto aos passageiros.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao20" value="d"> d) Um sistema para ajustar a pressão do sistema e manter o chassi em perfeitas condições de utilização, aumentando o conforto para os passageiros.
+      </label>
+    </li>
+  </ul>
+</div>
+
+<!-- Questão 21 Coringa -->
+<div class="questao" id="pagina21" style="display: none;">
+  <h3>Questão 21 (Coringa):</h3>
+  <p>Um ônibus está em movimento quando ocorre a quebra de uma cuíca de freio. Analise as seguintes afirmações em relação a essa falha e marque "V" para verdadeiro ou "F" para falso:</p>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" name="questao21" value="a"> a) ( ) A cuíca quebrada pode aumentar a eficiência do sistema de freios, proporcionando frenagens mais rápidas e potentes.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao21" value="b"> b) ( ) O veículo pode perder a capacidade de frenagem efetiva, resultando em uma distância de parada maior e dificuldade em controlar o veículo.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao21" value="c"> c) ( ) O sistema de freio pode funcionar normalmente, mas com uma leve redução na capacidade de frenagem.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao21" value="d"> d) ( ) A quebra da cuíca não tem impacto no funcionamento do sistema de freio.
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" name="questao21" value="e"> e) ( ) A quebra da cuíca pode causar superaquecimento nos freios do ônibus.
+      </label>
+    </li>
+  </ul>
+</div>
+
+
+    <!-- Botões "Anterior" e "Próxima Página" -->
+    <div>
+      <button id="anteriorButton" type="button" onclick="paginaAnterior()" disabled>Anterior</button>
+      <button id="proximoButton" type="button" onclick="proximaPagina()">Próxima Página</button>
+    </div>
+
+    <!-- Script JavaScript -->
+    <script src="script.js" defer></script>
+
+    <script>
+      let paginaAtual = 1;
+      const totalPaginas = 21; // Altere para o número total de páginas da prova
+
+      function proximaPagina() {
+        if (paginaAtual < totalPaginas) {
+          const paginaAtualElement = document.getElementById(`pagina${paginaAtual}`);
+          paginaAtualElement.style.display = "none";
+
+          paginaAtual++;
+          const proximaPaginaElement = document.getElementById(`pagina${paginaAtual}`);
+          proximaPaginaElement.style.display = "block";
+
+          // Habilitar o botão "Anterior" ao avançar para a segunda página
+          if (paginaAtual === 2) {
+            const anteriorButton = document.getElementById("anteriorButton");
+            anteriorButton.disabled = false;
+          }
+
+          if (paginaAtual === totalPaginas) {
+            // Última página: substituir o botão "Próxima Página" pelo botão "Finalizar Prova"
+            const proximoButton = document.getElementById("proximoButton");
+            proximoButton.textContent = "Finalizar Prova";
+            proximoButton.onclick = finalizarProva;
+          }
+        }
+      }
+
+      function paginaAnterior() {
+        if (paginaAtual > 1) {
+          const paginaAtualElement = document.getElementById(`pagina${paginaAtual}`);
+          paginaAtualElement.style.display = "none";
+
+          paginaAtual--;
+          const paginaAnteriorElement = document.getElementById(`pagina${paginaAtual}`);
+          paginaAnteriorElement.style.display = "block";
+
+          // Desabilitar o botão "Anterior" na primeira página
+          if (paginaAtual === 1) {
+            const anteriorButton = document.getElementById("anteriorButton");
+            anteriorButton.disabled = true;
+          }
+
+          // Restaurar o texto e a ação do botão "Próxima Página"
+          const proximoButton = document.getElementById("proximoButton");
+          proximoButton.textContent = "Próxima Página";
+          proximoButton.onclick = proximaPagina;
+        }
+      }
+
+      function finalizarProva() {
+        // Adicione aqui a lógica para finalizar a prova, por exemplo, exibir a nota do aluno, etc.
+        alert("Prova finalizada!"); // Exemplo de mensagem de prova finalizada
+
+        // Redirecionar para a página de resultados ou outra ação após a finalização da prova
+        // window.location.href = "resultado.html";
+      }
+    </script>
   </div>
-
-  <script src="script.js" defer></script>
 </body>
 </html>
